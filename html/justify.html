@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/estilo.css">
+    <script type="text/javascript" src="../js/flex.js"></script>
+    <title>Introdução ao alinhamento de objetos com Flex</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html">HOME</a>
+        <nav>
+            <ul>
+                <li><a href="direction.html">Flex Direction</a></li>
+                <li><a href="wrap.html">Flex Wrap</a></li>
+                <li><a href="#">Justufy Content</a></li>
+                <li><a href="align.html">Align Items</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="container">
+            <div class="square">1</div>
+            <div class="square">2</div>
+            <div class="square">3</div>
+        </div>
+        <div id="comandos">
+            <button onclick="justify('flex-start');">justify-content:flex-start</button>
+            <button onclick="justify('flex-end');">justify-content:flex-end</button>
+            <button onclick="justify('center');">justify-content:center</button>
+            <button onclick="justify('space-between');">justify-content:space-between</button>
+            <button onclick="justify('space-around');">justify-content:space-around</button>
+            <button onclick="justify('space-evenly');">justify-content:space-evenly</button>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>
