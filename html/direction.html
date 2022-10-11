@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/estilo.css">
+    <script type="text/javascript" src="../js/flex.js"></script>
+    <title>Introdução ao alinhamento de objetos com Flex</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html">HOME</a>
+        <nav>
+            <ul>
+                <li><a href="#">Flex Direction</a></li>
+                <li><a href="wrap.html">Flex Wrap</a></li>
+                <li><a href="justify.html">Justufy Content</a></li>
+                <li><a href="align.html">Align Items</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="container">
+            <div class="square">1</div>
+            <div class="square">2</div>
+            <div class="square">3</div>
+            <div class="square">4</div>
+            <div class="square">5</div>
+        </div>
+        <div id="comandos">
+            <button onclick="flex('row');">flex-direction:row</button>
+            <button onclick="flex('row-reverse');">flex-direction:row-reverse</button>
+            <button onclick="flex('column');">flex-direction:column</button>
+            <button onclick="flex('column-reverse');">flex-direction:column-reverse</button>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>
